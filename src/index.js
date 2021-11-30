@@ -2,15 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-//import App from './App';
-import AppH1 from './App_h1';
+import App from './App';
+//import AppH1 from './App_h1';
+import FuncComponent from './component/TodoContainerFunc';
+import ClassComponent from './component/TodoContainer';
+
 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/*<App />*/}
-    <AppH1 />
+    <FuncComponent />
+    <ClassComponent />
+    <App />
+    {/*<AppH1 />*/}
   </React.StrictMode>,
   document.getElementById('root')
 );

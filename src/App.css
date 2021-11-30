@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,13 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+.Heading1 {
+  padding: 1rem 2rem;
+}
+.Heading1 span {
+  font-size: x-large;
+  font-style: italic; 
+  font-weight: normal;
 }
